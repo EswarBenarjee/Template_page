@@ -1,0 +1,165 @@
+body, html {
+  height: 100%;
+}
+
+.background {
+    background:url("https://bootstrapmade.com/demo/templates/BizLand/assets/img/hero-bg.jpg");
+    position: relative;
+    background-attachment: fixed;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+}
+
+.layer {
+    background-color: rgb(192,192,192,0.1);
+}
+
+/*Contact Top Section*/
+#contact-top {
+  background-color: #106eea;
+  color: #fff;
+  padding: 0 4%;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.left-mar {
+  margin-left: 2.5%;
+}
+
+.contact-bar {
+  padding: 0.9%;
+}
+
+i {
+  margin: 0 4px;
+}
+
+#social {
+  margin: 0 10px;
+  color: #c4c4c4;
+}
+#social:hover {
+  color: #fff;
+}
+
+
+/*Fixed nav*/
+#fixed-nav {
+  padding: 1% 5% 1% 4%;
+  margin: 0 10px;
+}
+#fixed-top {
+  background-color: #fff;
+}
+
+.navbar {
+  font-weight: bold;
+}
+
+.navbar-nav.nothing {
+  margin-left: 300px;
+}
+
+.nav-item {
+  margin: 0 1.5%;
+}
+
+.navbar.navbar-expand-lg.navbar-light {
+  padding: 0;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0 0 0 1%;
+  padding: 0;
+}
+
+.blue-color {
+  color: #106eea;
+}
+
+.dropdown-menu {
+    position: relative;
+}
+
+#dropdown-newmenu.dropdown-menu {
+    position: absolute;
+    top: 20%;
+    right: 40%;
+}
+
+.pad {
+  padding: 0 10px;
+}
+
+#padz {
+  padding-left: 0;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+
+/*Home*/
+#home {
+  padding: 11% 5%;
+}
+
+.big-title {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 1.42rem;
+  color: grey;
+}
+
+.btn-large {
+  width: 15%;
+  margin: 0 0 20px 0;
+}
+
+#play-cen {
+  margin-top: 30px;
+  margin-left: 20px;
+  color: #106eea;
+}
+
+.width-auto {
+  display: inline-block;
+  color: #000;
+  position: relative;
+  bottom: 5px;
+}
+
+.width-auto:hover {
+  color: #106eea;
+}
+
+.middl {
+  text-align: left;
+}
