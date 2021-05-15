@@ -1,21 +1,24 @@
-body, html {
-  height: 100%;
+.white-color {
+  background-color: #fff;
 }
 
-.background {
-    background:url("https://bootstrapmade.com/demo/templates/BizLand/assets/img/hero-bg.jpg");
-    position: relative;
-    background-attachment: fixed;
-    height: 100%;
-    z-index: -1;
-    background-size: cover;
+.flash-color {
+  background-color: #f6f9fe;
 }
 
-.layer {
-    background-color: rgb(192,192,192,0.1);
+.lightb-color {
+  background-color: #e2eefd;
 }
 
-/*Contact Top Section*/
+.blue-color {
+  color: #106eea;
+}
+
+.grey-color {
+  color: #777777;
+}
+
+/*  Contact Bar  */
 #contact-top {
   background-color: #106eea;
   color: #fff;
@@ -28,7 +31,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-a {
+#contact-top a {
   text-decoration: none;
   color: #fff;
 }
@@ -47,7 +50,7 @@ i {
 
 #social {
   margin: 0 10px;
-  color: #c4c4c4;
+  color: rgb(255,255,255,0.7);
 }
 #social:hover {
   color: #fff;
@@ -56,23 +59,13 @@ i {
 
 /*Fixed nav*/
 #fixed-nav {
-  padding: 1% 5% 1% 4%;
+  padding: 1.5% 5% 1.5% 4%;
+  font-weight: lighter;
   margin: 0 10px;
-}
-#fixed-top {
-  background-color: #fff;
 }
 
 .navbar {
   font-weight: bold;
-}
-
-.navbar-nav.nothing {
-  margin-left: 300px;
-}
-
-.nav-item {
-  margin: 0 1.5%;
 }
 
 .navbar.navbar-expand-lg.navbar-light {
@@ -84,10 +77,6 @@ i {
   font-weight: 600;
   margin: 0 0 0 1%;
   padding: 0;
-}
-
-.blue-color {
-  color: #106eea;
 }
 
 .dropdown-menu {
@@ -102,6 +91,10 @@ i {
 
 .pad {
   padding: 0 10px;
+}
+
+.nav-item {
+  margin-right: 10px;
 }
 
 #padz {
@@ -122,8 +115,24 @@ i {
     display: block;
 }
 
+/*  Home  */
+body, html {
+  height: 100%;
+}
 
-/*Home*/
+.background {
+    background:url("https://bootstrapmade.com/demo/templates/BizLand/assets/img/hero-bg.jpg");
+    position: relative;
+    background-attachment: fixed;
+    height: 75%;
+    z-index: -1;
+    background-size: cover;
+}
+
+.layer {
+  background-color: rgb(255,255,255,0.5);
+}
+
 #home {
   padding: 11% 5%;
 }
@@ -133,7 +142,7 @@ i {
   font-weight: 800;
 }
 
-h4 {
+#home h4 {
   font-size: 1.42rem;
   color: grey;
 }
@@ -162,4 +171,366 @@ h4 {
 
 .middl {
   text-align: left;
+}
+
+/* Home 2 */
+.row {
+  padding: 2% 6% 2% 6%;
+  margin: 0;
+}
+
+@media (min-width: 1000px) {
+  .colu-lg-3 {
+    width: 23%;
+  }
+
+  #about img {
+    width: 100%;
+  }
+
+  .colu-lg-6 {
+    width: 48%;
+  }
+
+  .brand-col {
+    width: 16%;
+  }
+}
+
+@media (min-width: 720px && max-width: 999px) {
+  .colu-md-6 {
+    width: 50%;
+  }
+
+  .brand-col {
+    width: 22%;
+  }
+}
+
+#features .container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+#features p {
+  padding-top: 20px;
+}
+
+.iconify-ho2 {
+  color: #106eea;
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+#feature-box:hover .iconify-ho2 {
+  color: #fff;
+}
+
+#features {
+  background-color: #F5F5F5;
+  padding: 7% 0;
+  position: relative;
+}
+
+#feature-box {
+  border-radius: 4%;
+  margin: 0 1%;
+  padding: 2%;
+  text-align: left;
+}
+
+#feature-box:hover {
+  background-color: #106eea;
+  color: #fff;
+}
+
+/*  Buttons  */
+
+.butn {
+  background-color: #e7f1fd;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  border: none;
+  font-family: Arial;
+  color: #106eea;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 8px 20px 8px 20px;
+  text-decoration: none;
+  margin: 50px 0 30px;
+}
+
+/*  About  */
+#about {
+  background-color: #f6f9fe;
+  text-align: center;
+}
+
+#about h3 {
+  font-weight: 600;
+}
+
+.compress {
+  margin: auto;
+  width: 50%;
+  margin: 20px auto 50px;
+}
+
+.fr {
+  border-radius: 60px;
+  font-family: Arial;
+  background-color: #fff;
+  color: #106eea;
+  float: left;
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
+  margin: 20px 10px auto auto;
+}
+
+#about {
+  padding: 0 5% 5%;
+}
+
+#about img {
+  float: left;
+  margin-right: 30px;
+  height: 35rem;
+  width: 50%;
+}
+
+.fleft {
+  text-align: left;
+}
+
+.pdown {
+  padding-bottom: 10px;
+}
+
+#about h5 {
+  margin-top: 30px;
+}
+
+#about .mdown {
+  margin-bottom: 0;
+}
+
+#about .mup {
+  margin-top: 30px;
+}
+
+/*  Rating  */
+#skills .row {
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 2%  11.71875%;
+  width: 100%;
+}
+
+#skills .lcol {
+  margin-right: 3%;
+}
+
+#skills .d-flex {
+  margin-bottom: 1%;
+}
+
+.blue-fill {
+  background-color: #106eea;
+  margin-bottom: 5%;
+  height: 10px;
+}
+
+.rate {
+  font-size: 0.5rem;
+  margin-bottom: 5%;
+  height: 10px;
+  width: 100%;
+}
+
+.html1 .blue-fill {
+  transition: 0.9s;
+  width: 100%;
+}
+
+.css1 .blue-fill {
+  transition: 0.9s;
+  width: 90%;
+}
+
+.css1 .lightb-fill {
+  width: 10%;
+}
+
+.javascript .blue-fill {
+  width: 75%;
+}
+
+.javascript .lightb-fill {
+  width: 25%;
+}
+
+.php .blue-fill {
+  width: 80%;
+}
+
+.php .lightb-fill {
+  width: 20%;
+}
+
+.wordpress .blue-fill {
+  width: 90%;
+}
+
+.wordpress .lightb-fill {
+  width: 10%;
+}
+
+.photoshop .blue-fill {
+  width: 50%;
+}
+
+.photoshop .lightb-fill {
+  width: 50%;
+}
+
+/*  Customers  */
+.customers {
+  text-align: center;
+  padding: 10% 0;
+}
+
+.cus-me {
+  margin: 0 1% 0 1%;
+  padding: 5% 2% 1%;
+  position: relative;
+}
+
+.cus-me h2 {
+  color: #062b5b;
+  font-weight: 700;
+  padding:  2%;
+}
+
+.cus-icon {
+  background-color: #106eea;
+  border: 5px solid #fff;
+  padding: 10px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 24px;
+  width: 65px;
+  position: absolute;
+  top: -20px;
+  left: 35%;
+}
+
+/*  Brands  */
+.brand {
+  background-color: #f6f9fe;
+  padding: 2% 6%;
+  margin-top: 5%;
+  height: 100px;
+}
+
+.brand-col {
+  padding: 1.5% 0.5% 0.5% 3%;
+}
+
+.brand img {
+  margin: 0 5%;
+  text-align: center;
+  justify-content: center;
+  transition: All 0.9s;
+  width: 50%;
+}
+.brand img:hover {
+  width: 60%;
+}
+
+/*  Services  */
+#services {
+  text-align: center;
+}
+
+.service-div {
+  padding: 0 30% 5%;
+}
+
+#services .butn {
+  margin-bottom: 20px;
+}
+
+#services h3 {
+  font-weight: bolder;
+  margin: 2% auto 5%;
+}
+
+#services 
+
+
+
+
+
+
+
+/*  Contact Me  */
+.news {
+  padding: 5%;
+  text-align: center;
+}
+
+.news .big-input {
+  font-size: 2rem;
+  height: 2rem;
+  display: inline-block;
+}
+
+.news .container-fluid {
+  padding: 0 20%;
+}
+
+.sub {
+  position: relative;
+  bottom: 0.5rem;
+}
+
+.con-mid-large {
+  padding: 5% 5% 3%;
+}
+
+.con-mid h4, h5 {
+  margin-bottom: 1rem;
+}
+
+.low {
+  font-size: 0.6rem;
+  margin-right: 0.5rem;
+}
+
+.max {
+  font-size: 2rem;
+  color: #106eea;
+}
+
+.an:hover {
+  text-decoration: none;
+  color: #106eea;
+}
+
+
+.last-con {
+  position: relative;
+  padding: 2% 5%;
+}
+
+.cleft {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+}
+
+.cright {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
 }

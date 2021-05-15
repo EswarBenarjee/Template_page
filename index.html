@@ -3,39 +3,45 @@
   <head>
     <meta charset="utf-8">
     <title>Template</title>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <!--Scripts-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
     <!--Fontawesome-->
     <script src="https://kit.fontawesome.com/22e41c381f.js" crossorigin="anonymous"></script>
 
-    <!--Google fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!--Iconify-->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+    <!-- Boxicon -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
     <!--CSS-->
     <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body class="background">
+  <body>
     <section id="contact-top">
-      <nav class="nav-bar navbar-expand-lg navbar-light ">
+      <nav class="nav-bar navbar-expand-lg navbar-light">
 
         <ul class="navbar-nav mr-auto contact-bar">
-          <li class="nav-item"> <i class="far fa-envelope"></i> <a href="mailto:contact@example.com">contact@example.com</a></li>
-          <li class="nav-item mr-auto left-mar"> <i class="fas fa-mobile"></i> +1 5589 55488 55</li>
-          <li class="nav-item ml-auto"> <i class="fab fa-twitter" id="social"></i> </li>
-          <li class="nav-item"> <i class="fab fa-facebook" id="social"></i> </li>
-          <li class="nav-item"> <i class="fab fa-instagram" id="social"></i> </li>
-          <li class="nav-item"> <i class="fab fa-linkedin" id="social"></i> </li>
+          <li> <i class="far fa-envelope"></i> <a href="mailto:contact@example.com">contact@example.com</a></li>
+          <li class="mr-auto left-mar"> <i class='bx bx-mobile-alt'></i> +1 5589 55488 55</li>
+          <li class="ml-auto"> <i class="fab fa-twitter" id="social"></i> </li>
+          <li> <i class="fab fa-facebook" id="social"></i> </li>
+          <li> <i class="fab fa-instagram" id="social"></i> </li>
+          <li> <i class="fab fa-linkedin" id="social"></i> </li>
         </ul>
 
       </nav>
     </section>
 
-    <section id="fixed-top">
+    <section class="white-color" id="fix-top">
     <div id="fixed-nav">
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">BizLand <span class="blue-color">.</span></a>
@@ -44,26 +50,26 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav nothing">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Team</a>
+              <a class="nav-link" href="#team">Team</a>
             </li>
             <li class="nav-item active dropdown">
               <div class="dropdown">
                 <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown
+                  <strong>Dropdown</strong>
                 </button>
                 <ul class="dropdown-menu multi-level" aria-labelledby="dropdownMenuButton">
                   <li class="dropdown-item" href="#">Dropdown 1</a>
@@ -84,7 +90,7 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Contact</a>
+              <a class="nav-link active" href="#Contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -92,73 +98,274 @@
     </div>
     </section>
 
-    <section class="layer" id="home">
+    <div class="background">
+      <section class="layer" id="home">
+        <div class="container-fluid">
+          <h1 class="big-title">Welcome to <span class="blue-color">BizLand</span></h1>
+          <h4>We are team of talented designers making websites with Bootstrap</h4>
+          <div class="middl">
+            <button class="btn btn-primary btn-large" type="button" name="button">GET STARTED</button>
+            <i class="far fa-play-circle fa-2x" id="play-cen"></i> <h5 class="width-auto">Watch Video</h5>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="features">
       <div class="container-fluid">
-        <h1 class="big-title">Welcome to <span class="blue-color">BizLand</span></h1>
-        <h4>We are team of talented designers making websites with Bootstrap</h4>
-        <div class="middl">
-          <button class="btn btn-primary btn-large" type="button" name="button">GET STARTED</button>
-          <i class="far fa-play-circle fa-2x" id="play-cen"></i> <h5 class="width-auto">Watch Video</h5>
+        <div class="row">
+          <div class="colu-md-6 colu-lg-3 white-color" id="feature-box">
+            <span class="iconify iconify-ho2" data-icon="topcoat:dribble" data-inline="false"></span><br>
+            <b>Lorem Ipsum</b>
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+          </div>
+          <div class="colu-md-6 colu-lg-3 white-color" id="feature-box">
+            <span class="iconify iconify-ho2" data-icon="akar-icons:file"></span><br>
+            <b>Sed ut perspiciatis</b>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+          </div>
+          <div class="colu-md-6 colu-lg-3 white-color" id="feature-box">
+            <span class="iconify iconify-ho2" data-icon="bx-bx-tachometer"></span><br>
+            <b>Magni Dolores</b>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+          </div>
+          <div class="colu-md-6 colu-lg-3 white-color" id="feature-box">
+            <span class="iconify iconify-ho2" data-icon="bx:bx-world"></span><br>
+            <b>Nemo Enim</b>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="about">
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+      <div class="container-fluid">
+        <button class="butn" type="button" name="button">ABOUT</button>
+        <h3>Find out more <span class="blue-color">About Us</span></h3>
+        <p class="compress">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
 
-<br>
-<br>
-<br>
-<br></section>
+        <div class="compress2">
+          <img src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/about.jpg" alt="">
+          <div class="fleft">
+            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <i class="grey-color pdown">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i>
+
+            <span class="fr"><span class="iconify max blue-color" data-icon="bx-bx-store-alt" data-inline="false"></span></span>
+            <h5>Ullamco laboris nisi ut aliquip consequat</h5>
+            <p class="grey-color mdown">Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+
+            <span class="fr"><span class="iconify max blue-color" data-icon="bx-bx-images" data-inline="false"></span></span>
+            <h5>Magnam soluta odio exercitationem reprehenderi</h5>
+            <p class="grey-color mdown">Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
+
+            <p class="grey-color mup mdown">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="white-color" id="skills">
+      <div class="row" id="rating">
+        <div class="colu-lg-6 lcol">
+
+          <div class="html1">
+            <div class="d-flex">
+              HTML <span class="ml-auto">100%</span>
+            </div>
+            <div class="blue-fill">
+              <br>
+            </div>
+          </div>
+
+          <div class="css1">
+            <div class="d-flex">
+              CSS <span class="ml-auto">90%</span>
+            </div>
+            <div class="rate lightb-color">
+              <div class="blue-fill">
+                <br>
+              </div>
+            </div>
+          </div>
+
+          <div class="javascript">
+            <div class="d-flex">
+              JAVASCRIPT <span class="ml-auto">75%</span>
+            </div>
+            <div class="rate lightb-color">
+              <div class="blue-fill">
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="colu-lg-6">
+
+          <div class="php">
+            <div class="d-flex">
+              PHP <span class="ml-auto">80%</span>
+            </div>
+            <div class="rate lightb-color">
+              <div class="blue-fill">
+                <br>
+              </div>
+            </div>
+          </div>
+
+          <div class="wordpress">
+            <div class="d-flex">
+              WORDPRESS/CMS <span class="ml-auto">90%</span>
+            </div>
+            <div class="rate lightb-color">
+              <div class="blue-fill">
+                <br>
+              </div>
+            </div>
+          </div>
+
+          <div class="photoshop">
+            <div class="d-flex">
+              PHOTOSHOP <span class="ml-auto">50%</span>
+            </div>
+            <div class="rate lightb-color">
+              <div class="blue-fill">
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="customers row">
+        <div class="colu-lg-3 cus-me lightb-color">
+          <i class="bi bi-emoji-smile cus-icon"></i>
+          <h2>232</h2>
+          <p class="grey-color">Happy Clients</p>
+        </div>
+        <div class="colu-lg-3 cus-me lightb-color">
+          <i class="bi bi-journal-richtext cus-icon"></i>
+          <h2>521</h2>
+          <p class="grey-color">Projects</p>
+        </div>
+        <div class="colu-lg-3 cus-me lightb-color">
+          <i class="bi bi-headset cus-icon"></i>
+          <h2>1463</h2>
+          <p class="grey-color">Hours of Support</p>
+        </div>
+        <div class="colu-lg-3 cus-me lightb-color">
+          <i class="bi bi-people-fill cus-icon"></i>
+          <h2>15</h2>
+          <p class="grey-color">Hard Workers</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="brands">
+      <div class="brand row">
+        <div class="brand-col">
+          <img src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/clients/client-1.png" alt="">
+        </div>
+        <div class="brand-col">
+          <img src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/clients/client-2.png" alt="">
+        </div>
+        <div class="brand-col">
+          <img src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/clients/client-3.png" alt="">
+        </div>
+        <div class="brand-col">
+          <img src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/clients/client-4.png" alt="">
+        </div>
+        <div class="brand-col">
+          <img src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/clients/client-5.png" alt="">
+        </div>
+        <div class="brand-col">
+          <img src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/clients/client-6.png" alt="">
+        </div>
+      </div>
+    </section>
 
     <section id="services">
+      <div class="container-fluid service-div">
+        <button class="butn" type="button" name="button">SERVICES</button>
+        <h3>Check our <span class="blue-color">Services</span> </h3>
+        <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+      </div>
+    </section>
+
+    <section id="Portfolios">
 
     </section>
 
-    <section id="portfolio">
+    <section id="Team">
 
     </section>
 
-    <section id="team">
+    <section id="Contact">
+      <div class="flash-color news">
+        <div class="container-fluid">
+          <h3>Join Our Newsletter</h3>.
+          <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          <input class="big-input" type="email" name="" value=""><button class="btn btn-primary sub" type="button" name="button">Subscribe</button>
+        </div>
 
+      </div>
+
+
+
+      <div class="row white-color con-mid-large">
+        <div class="col-lg-3 col-md-6 con-mid">
+          <h4><strong>BizLand<span class="blue-color">.</span></strong></h4>
+          <p class="grey-color"> A108 Adam Street <br>
+            New York, NY 535022 <br>
+            United States <br><br>
+
+          <strong>Phone: </strong> +194644146 <br>
+          <strong>Email: </strong> info@example.com</p>
+        </div>
+        <div class="col-lg-3 col-md-6 con-mid">
+          <h5>Useful Links</h5>
+
+          <p><span class="iconify low blue-color" data-icon="akar-icons:chevron-right"></span><a href="#" class="grey-color an">Home</a></p>
+          <p><span class="iconify low blue-color" data-icon="akar-icons:chevron-right"></span><a href="#" class="grey-color an">About us</a></p>
+          <p><span class="iconify low blue-color" data-icon="akar-icons:chevron-right"></span><a href="#" class="grey-color an">Services</a></p>
+          <p><span class="iconify low blue-color" data-icon="akar-icons:chevron-right"></span><a href="#" class="grey-color an">Terms of services</a></p>
+          <p><span class="iconify low blue-color" data-icon="akar-icons:chevron-right"></span><a href="#" class="grey-color an">Privacy policy</a></p>
+        </div>
+        <div class="col-lg-3 col-md-6 con-mid">
+          <h5>Our Services</h5>
+
+          <p><span class="iconify low blue-color" data-icon="akar-icons:chevron-right"></span><a href="#" class="grey-color an">Web Design</a></p>
+          <p><span class="iconify low blue-color" data-icon="akar-icons:chevron-right"></span><a href="#" class="grey-color an">Web Development</a></p>
+          <p><span class="iconify low blue-color" data-icon="akar-icons:chevron-right"></span><a href="#" class="grey-color an">Product Management</a></p>
+          <p><span class="iconify low blue-color" data-icon="akar-icons:chevron-right"></span><a href="#" class="grey-color an">Marketing</a></p>
+          <p><span class="iconify low blue-color" data-icon="akar-icons:chevron-right"></span><a href="#" class="grey-color an">Graphic Design</a></p>
+        </div>
+        <div class="col-lg-3 col-md-6 con-mid">
+          <h5>Our Social Networks</h5>
+
+          <p class="grey-color">Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+
+          <div class="social-icons">
+            <i class="bx bxl-twitter blue-color white-color max"></i>
+            <i class="bx bxl-facebook-square blue-color white-color max"></i>
+            <i class="bx bxl-instagram blue-color white-color max"></i>
+            <i class="bx bxl-skype blue-color white-color max"></i>
+            <i class="bx bxl-linkedin-square blue-color white-color max"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="last-con flash-color">
+        <span class="cleft">© Copyright <b>BizLand</b>. All rights reserved</span>
+        <span class="cright">Designed by <a href="https://bootstrapmade.com/">Bootstrap Made</a></span>
+      </div>
     </section>
 
-    <section id="pricing">
+    <!-- <a href="#" class="back-to-top">
+      <span class="iconify" data-icon="akar-icons:arrow-up" data-inline="false"></span>
+    </a> -->
 
-    </section>
-
-    <section id="faq">
-
-    </section>
-
-    <section id="contact-bottom">
-
-    </section>
-
+    <!--Java script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="index.js" charset="utf-8"></script>
   </body>
 </html>
